@@ -1,0 +1,6 @@
+<launch>
+
+<node pkg="rviz" type="rviz" name="rviz" args="-d $(find fixed_path_planner)/rviz/my_rviz.rviz"/>
+<node name="my_global_path" pkg="fixed_path_planner" type="my_global_planner"/>
+
+</launch>
